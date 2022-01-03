@@ -114,5 +114,25 @@ $(document).ready(function () {
         $(".hover").hide();
     });
 
+    var name, email, message;
+    //events
+const form = document.querySelector("#myform");
+
+form.addEventListener("submit", function (event) {
+    //get entries
+    name = document.getElementById('name').value;
+    email = document.getElementById('email').value;
+    message = document.getElementById('message').value;
+
+    userPopup();
+
+}, false); 
+
+function userPopup(){
+
+    alert( name + " ,we have received your message. Thank you for reaching out to us.");
+
+}
+
 });
 
