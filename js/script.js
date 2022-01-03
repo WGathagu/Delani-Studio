@@ -50,89 +50,89 @@ $(document).ready(function () {
 
     //Hover
 
-    $("img#blank").hover( function(){
+    $("img#blank").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Blank Pages Art Projects");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
-    $("img#ontario").hover( function(){
+    $("img#ontario").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Ontario Project");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
-    $("img#pentagon").hover( function(){
+    $("img#pentagon").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Pentagon Orange Project");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
-    $("img#news").hover( function(){
+    $("img#news").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Daily News Project");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
-    $("img#user_interface").hover( function(){
+    $("img#user_interface").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Best UI Projects");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
-    $("img#elements").hover( function(){
+    $("img#elements").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Many Elements Projects");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
-    $("img#burned").hover( function(){
+    $("img#burned").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Burned Sample Project");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
-    $("img#bailey").hover( function(){
+    $("img#bailey").hover(function () {
         $("p").addClass("hover");
         $("p.hover").text("Bailey Giraffe Project");
         $(".hover").show().offset($(this).offset());
-    }, function(){
+    }, function () {
         $(".hover").hide();
     });
 
     var name, email, message;
     //events
-const form = document.querySelector("#myform");
+    const form = document.querySelector("#myform");
 
-form.addEventListener("submit", function (event) {
-    //get entries
-    name = document.getElementById('name').value;
-    email = document.getElementById('email').value;
-    message = document.getElementById('message').value;
+    form.addEventListener("submit", function (event) {
+        //get entries
+        name = document.getElementById('name').value;
+        email = document.getElementById('email').value;
+        message = document.getElementById('message').value;
 
-    userPopup();
+        userPopup();
 
-}, false); 
+    }, false);
 
-function userPopup(){
+    function userPopup() {
 
-    alert( name + " , we have received your message. Thank you for reaching out to us.");
+        alert(name + " , we have received your message. Thank you for reaching out to us.");
 
-}
+    }
 
 });
 
