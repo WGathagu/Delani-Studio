@@ -1,11 +1,5 @@
-$(document).ready(function() {
-    $("p").click(function() {
-      $(".icons-showing").toggle();
-      $(".icons-hidden").toggle();
-    });
-  });
 
-  //Design
+//Design
 $(document).ready(function () {
     $("p#design").click(function () {
         $("p#design").toggle();
@@ -46,13 +40,79 @@ $(document).ready(function () {
         $("p#prod_description").show();
         $("p#prod_description").text("Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle.");
         $("p#prod").css("font-weight", "bold");
-    }); 
-    
+    });
+
     $("p#prod_description").click(function () {
         $("p#prod_description").toggle();
         $("p#product").show();
         $("p#prod").css("font-weight", "normal");
     });
+
+    //Hover
+
+    $("img#blank").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Blank Pages Art Projects");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
+    $("img#ontario").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Ontario Project");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
+    $("img#pentagon").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Pentagon Orange Project");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
+    $("img#news").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Daily News Project");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
+    $("img#user_interface").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Best UI Projects");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
+    $("img#elements").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Many Elements Projects");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
+    $("img#burned").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Burned Sample Project");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
+    $("img#bailey").hover( function(){
+        $("p").addClass("hover");
+        $("p.hover").text("Bailey Giraffe Project");
+        $(".hover").show().offset($(this).offset());
+    }, function(){
+        $(".hover").hide();
+    });
+
 });
 
-  

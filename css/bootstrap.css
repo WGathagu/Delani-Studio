@@ -656,9 +656,13 @@ progress {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.flex-fill {
-  flex: 1 1 auto;
+
+.hover{
+  display: none;
+  background:white;
+  position: absolute;
 }
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
