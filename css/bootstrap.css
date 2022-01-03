@@ -638,18 +638,12 @@ progress {
 }
 .section1 {
   background-image: url("../assets/backgrounds/h_img.jpg");
-  width: 100%;
-  height: 100%;
 }
 .section2 {
   background-image: url("../assets/backgrounds/s_image.jpg");
-  width: 100%;
-  height: 100%;
 }
 .section3 {
   background-image: url("../assets/backgrounds/c_image.jpg");
-  width: 100%;
-  height: 100%;
 }
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -2239,7 +2233,7 @@ progress {
   opacity: 1;
 }
 .form-control::placeholder {
-  color: #6c757d;
+  color: #ffffff;
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
