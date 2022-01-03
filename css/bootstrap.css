@@ -653,10 +653,12 @@ progress {
 }
 .section3 {
   background-image: url("../assets/backgrounds/c_image.jpg");
-  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.flex-fill {
+  flex: 1 1 auto;
 }
 @media (min-width: 576px) {
   .container-sm, .container {
