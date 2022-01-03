@@ -1,4 +1,3 @@
-
 //Design
 $(document).ready(function () {
     $("p#design").click(function () {
@@ -80,7 +79,7 @@ $(document).ready(function () {
     //Hover
 
     $("img#blank").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Blank Pages Art Projects");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -88,7 +87,7 @@ $(document).ready(function () {
     });
 
     $("img#ontario").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Ontario Project");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -96,7 +95,7 @@ $(document).ready(function () {
     });
 
     $("img#pentagon").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Pentagon Orange Project");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -104,7 +103,7 @@ $(document).ready(function () {
     });
 
     $("img#news").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Daily News Project");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -112,7 +111,7 @@ $(document).ready(function () {
     });
 
     $("img#user_interface").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Best UI Projects");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -120,7 +119,7 @@ $(document).ready(function () {
     });
 
     $("img#elements").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Many Elements Projects");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -128,7 +127,7 @@ $(document).ready(function () {
     });
 
     $("img#burned").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Burned Sample Project");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -136,7 +135,7 @@ $(document).ready(function () {
     });
 
     $("img#bailey").hover(function () {
-        $("p").addClass("hover");
+        $("p#port").addClass("hover");
         $("p.hover").text("Bailey Giraffe Project");
         $(".hover").show().offset($(this).offset());
     }, function () {
@@ -164,4 +163,3 @@ $(document).ready(function () {
     }
 
 });
-
