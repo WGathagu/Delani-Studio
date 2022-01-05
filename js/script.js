@@ -148,9 +148,9 @@ $(document).ready(function () {
 
     form.addEventListener("submit", function (event) {
         //get entries
-        name = document.getElementById('name').value;
-        email = document.getElementById('email').value;
-        message = document.getElementById('message').value;
+        name = $("#name").value;
+        email = $("#email").value;
+        message = $("#message").value;
 
         userPopup();
 
